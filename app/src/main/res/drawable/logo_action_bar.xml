@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Sets the logo
+         we use this drawable inside the style for actionbar
+     -->
+    <item
+        android:drawable="@drawable/newspaper"
+        android:end="8dp"
+        android:right="8dp" />
+
+</layer-list>

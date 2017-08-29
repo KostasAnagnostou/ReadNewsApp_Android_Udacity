@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- String Array for Settings Order by Labels -->
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_relevance_label</item>
+        <item>@string/settings_order_by_most_newest_label</item>
+    </string-array>
+
+    <!-- String Array for Settings Order by Values -->
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_relevance_value</item>
+        <item>@string/settings_order_by_most_newest_value</item>
+    </string-array>
+</resources>

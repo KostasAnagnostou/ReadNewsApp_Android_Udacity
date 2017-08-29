@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Style for the action bar -->
+        <item name="actionBarStyle">@style/MyActionBarLogo</item>
+    </style>
+
+    <!--
+          Style for the action bar - basically it shows the logo & title and sets the background color
+    -->
+    <style name="MyActionBarLogo" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/colorPrimary</item>
+        <item name="titleTextStyle">@style/MyActionBarTitle</item>
+        <item name="logo">@drawable/logo_action_bar</item>
+        <item name="displayOptions">useLogo|showHome|showTitle</item>
+    </style>
+
+    <!-- style for the action bar title -->
+    <style name="MyActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
